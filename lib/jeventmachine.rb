@@ -33,7 +33,6 @@ require 'socket'
 
 java_import java.io.FileDescriptor
 java_import java.nio.channels.SocketChannel
-java_import java.lang.reflect.Field
 
 module JavaFields
   def set_field(key, value)
